@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links:hover {
+    color: #007bff;
+} 
