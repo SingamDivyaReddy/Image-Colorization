@@ -1,0 +1,10 @@
+Flask
+Flask-CORS
+Werkzeug
+numpy
+Pillow
+bcrypt
+opencv-python
+openvino
+opencv-python-headless
+gdown
